@@ -1,0 +1,21 @@
+.form-group{
+    width: 500px;
+   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type=text] , input[type=password], input[type=number]{
+    border: none;
+    border-bottom: 1.5px solid black ;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    
+}
+label{
+    color:darkgray;
+    font-weight: 1000;
+    font-size: 20px;
+}
